@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz kontaktowy</title>
+    <meta name="description" content="Formularz kontaktowy. GitHub - tomaszostaszewski">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/44f80a473f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="box-one">
+                <div class="box-text">
+                    <div class="box-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="box-content">
+                        <p class="title">Adres</p>
+                        <p>Green Office</p>
+                        <p>ul. Europejska 6</p>
+                        <p>Warszawa</p>
+                    </div>
+                </div>
+                <div class="box-text">
+                    <div class="box-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="box-content">
+                        <p class="title">Telefon</p>
+                        <a href="tel:+48500288024">+48500288024</a>
+                    </div>
+                </div>
+                <div class="box-text">
+                    <div class="box-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="box-content">
+                        <p class="title">Mail</p>
+                        <a href="mailto:test@test.com">test@test.com</a>
+                    </div>
+                </div>
+                <div class="hero-box-one"></div>
+            </div>
+            <div class="box-two">
+                <div class="form-header">
+                    <p>Napisz do nas!</p>
+                </div>
+                <div class="form-box">
+                    <form action="#" method="get" id="contact">
+                        <label for="personal">Podaj swoje dane *</label>
+                        <div class="input-row">
+                            <input type="text" placeholder="Imię" required>
+                            <input type="text" placeholder="Nazwisko" required>
+                        </div>
+
+                        <label for="email">podaj adres email *</label>
+                        <div class="input-one-row">
+                            <input type="email" placeholder="example@email.com" required>
+                        </div>
+
+                        <label for="message">Wiadomość *</label>
+                        <textarea name="message" id="message" rows="6" placeholder="Wiadomość" required></textarea>
+                    </form>
+
+                    <div class="box-button">
+                        <button type="submit" form="contact" value="Submit">Wyślij wiadomość</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

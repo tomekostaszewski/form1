@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'Noto Sans Mono', monospace;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+
+main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 1400px;
+  background-color: #fff;
+  margin: 2rem 0;
+  border-radius: 30px 0 0 30px;
+}
+
+main .container .box-one {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 700px;
+  background-color: #333;
+  color: #fff;
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px 0 0 30px;
+}
+
+main .container .box-one .box-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin-bottom: 3rem;
+  z-index: 2;
+}
+
+main .container .box-one .box-text .box-icon {
+  height: 100%;
+}
+
+main .container .box-one .box-text .box-icon i {
+  font-size: 1rem;
+  padding: 0.75rem;
+  line-height: 1rem;
+}
+
+main .container .box-one .box-text .box-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: .5rem;
+  height: 100%;
+}
+
+main .container .box-one .box-text .box-content p.title {
+  font-size: 1.2rem;
+  padding: .4rem 0 .9rem;
+  font-weight: bold;
+  color: seagreen;
+}
+
+main .container .box-one .box-text .box-content p {
+  font-size: .9rem;
+}
+
+main .container .box-one .box-text .box-content a {
+  text-decoration: none;
+  color: #fff;
+  font-size: .9rem;
+}
+
+main .container .box-one .hero-box-one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 0;
+  border-radius: 30px 0 0 30px;
+}
+
+main .container .box-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 700px;
+  background-color: #fff;
+}
+
+main .container .box-two .form-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15%;
+}
+
+main .container .box-two .form-header p {
+  font-size: 1.6rem;
+}
+
+main .container .box-two .form-box {
+  width: 90%;
+  height: 85%;
+}
+
+main .container .box-two .form-box form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+main .container .box-two .form-box form .input-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+main .container .box-two .form-box form .input-row input {
+  width: 50%;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+main .container .box-two .form-box form .input-one-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .box-two .form-box form .input-one-row input {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+main .container .box-two .form-box form textarea {
+  resize: none;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+main .container .box-two .form-box form input:focus::-webkit-input-placeholder,
+main .container .box-two .form-box form textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+main .container .box-two .form-box form input:focus:-ms-input-placeholder,
+main .container .box-two .form-box form textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+main .container .box-two .form-box form input:focus::-ms-input-placeholder,
+main .container .box-two .form-box form textarea:focus::-ms-input-placeholder {
+  color: transparent;
+}
+
+main .container .box-two .form-box form input:focus::placeholder,
+main .container .box-two .form-box form textarea:focus::placeholder {
+  color: transparent;
+}
+
+main .container .box-two .form-box form input:focus,
+main .container .box-two .form-box form textarea:focus {
+  outline: none;
+  border: 1px solid seagreen;
+}
+
+main .container .box-two .form-box .box-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+main .container .box-two .form-box .box-button button {
+  padding: 1rem 4rem;
+  background-color: #333;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  main .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 1920px;
+    height: 650px;
+    border-radius: 30px 0 0 30px;
+  }
+  main .container .box-one {
+    width: 47%;
+    height: 100%;
+    border-radius: 30px 0 0 30px;
+  }
+  main .container .box-two {
+    width: 53%;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
